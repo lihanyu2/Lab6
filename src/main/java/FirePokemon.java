@@ -58,6 +58,10 @@ public class FirePokemon extends Pokemon {
      * Implement this.
      */
     public boolean attack(final Pokemon opponent) {
+
+
+
+
         return false;
     }
 

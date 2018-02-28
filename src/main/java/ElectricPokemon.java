@@ -59,6 +59,11 @@ public class ElectricPokemon extends Pokemon {
      * Implement this.
      */
     public boolean attack(final Pokemon opponent) {
+        if (!opponent.pokeType.equals("ELECTRIC") && specialtyProbability > Dice.myRand())
+
+
+
+
         return false;
     }
 
